@@ -27,15 +27,12 @@ export class Stroke extends Shape {
                     context.stroke();
                 }
                 previousPoint = p;
-            }
-            
+            }            
         }
-
     }
 
     public getPoints() {
         return this._points;
     }
-
-
+    
 }

@@ -25,8 +25,7 @@ export class TwoEndsShapeTool extends AbstractTool {
             this.canvas.mouseButtonDown = true;
             this.startPoint = p;
             this.shape.drawOutline(this.canvas._contextTemp, this.startPoint, this.startPoint);
-        }
-        
+        }        
     }
 
     public addPointToShape(p: Point){
