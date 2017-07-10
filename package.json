@@ -1,0 +1,17 @@
+{
+  "name": "salchichon",
+  "version": "1.0.0",
+  "devDependencies": {
+    "ts-loader": "^2.2.0",
+    "typescript": "^2.3.4",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --display-error-details"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.68"
+  }
+}
