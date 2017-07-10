@@ -21,15 +21,13 @@
       .wrapper canvas {
         position: absolute;
         top: 0;
-        left: 0;
-       
+        left: 0;       
       }
 
       h1 {
-          color: maroon;
-          margin-left: 0px;
-          font-size: 37px;
-          text-transform: uppercase;
+        color: maroon;
+        margin-left: 0px;
+        font-size: 37px;       
       } 
 
       .panel {
@@ -46,31 +44,29 @@
         margin: auto;
       }
 
-</style>
+    </style>
   </head>
   <body>
-
-  <script src="build/bundle.js"></script>
-  <div class="top">
-    <h1>Scribble Canvas v.1</h1>
-  </div>
-  <div class="wrapper">
-    <canvas id="imageTemp" width="600" height="300" style="border:1px solid #000000;">
-      Your browser does not support the HTML5 canvas tag.
-    </canvas>
-    <canvas id="myCanvas" width="600" height="300" style="border:1px solid #000000;">
-      Your browser does not support the HTML5 canvas tag.
-    </canvas>
-  </div>
-  <div class="panel">    
-    <select id="selectTool"> 
+    <script src="build/bundle.js"></script>
+    <div class="top">
+      <h1>CUÑAPE v 1.0</h1>
+    </div>
+    <div class="wrapper">
+      <canvas id="imageTemp" width="600" height="300" style="border:1px solid #000000;">
+        Your browser does not support the HTML5 canvas tag.
+      </canvas>
+      <canvas id="myCanvas" width="600" height="300" style="border:1px solid #000000;">
+        Your browser does not support the HTML5 canvas tag.
+      </canvas>
+    </div>
+    <div class="panel">    
+      <select id="selectTool"> 
         <option value="1">pen</option>
         <option value="2">line</option>
         <option value="3">rectangle</option>
         <option value="4">oval</option>
-    </select>
-    <button id="btn1">Erase canvas</button>
-  </div>
-
+      </select>
+      <button id="btn1">Undo</button>
+    </div>
   </body>
 </html>
